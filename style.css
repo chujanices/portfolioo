@@ -1,0 +1,75 @@
+h3 {
+      color:#ffffFF;
+}
+
+
+h4 {
+      font-style: initial;
+      font-variant: initial;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: initial;
+      font-family: Times, "Times New Roman", serif;
+      color:#ffffFF;
+}
+
+/*
+* {
+      grid  
+}
+*/
+
+.header {
+      background-color: #808080;
+      display: flex;
+      justify-content: space-between;
+}
+
+body {
+      background-color: #ccac93;
+
+}
+
+.img {
+      color: #808080;
+      box-shadow:5px-5px;
+}
+
+.grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+}
+
+.footer {
+      display: flex;
+      justify-content: flex-end;
+}
+
+.menu a {
+      margin-left: 20px;
+}
+
+.menu {
+      margin-right: 30px;
+}
+
+.item {
+      position: relative;
+}
+
+.item p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0;
+}
+
+.item:hover p{
+      opacity: 1;
+}
+
+.item:hover img {
+      opacity: 0.34;
+}
